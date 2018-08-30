@@ -1,5 +1,5 @@
 {
-    "name": "uni-payllc/payment-gateway",
+    "name": "uni-payllc/unipay-payment-gateway",
     "description": "UniPAY Payment Gateway",
     "version": "1.0.0",
     "type": "magento2-module",
