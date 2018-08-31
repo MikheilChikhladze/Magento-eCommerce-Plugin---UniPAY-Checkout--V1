@@ -515,7 +515,7 @@ class PaymentMethod extends AbstractMethod
         $cartUrl = $this->urlBuilder->getUrl('checkout/cart');
         $this->responseFactory->create()->setRedirect($cartUrl)->sendResponse();
 
-        exit;
+        return $this->getResponse()->setBody('Error');
     }
 
     /**
